@@ -1,0 +1,360 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+a {
+	color: #d38484;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: #efdea0;
+}
+	
+a, a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}	
+
+header {
+width: 100%;
+float: left;
+
+background-color: #fafafa;
+border-bottom: 2px solid silver;
+
+}
+
+header #logo {
+width: 30%;
+float: left;
+
+}
+
+header #logo a {
+color: #939393;
+font-size: 2em;
+font-family: Times New Roman, sans-serif;	
+}
+
+header #logo span {
+color: #e36565;
+}
+
+header #menuHead {
+width: 25%;
+float: left;
+
+}
+
+header #menuHead div {
+ float: left;
+ padding: 5px;
+ background-color: #c8c8c8;
+ border-radius: 5px;
+ color: #ffffff;
+     
+}
+
+
+
+header #menuHead div:hover {
+ background-color: #e7e7e7;		
+         
+}
+
+header #regAuth {
+width: 30%;
+float: right;
+text-align: right;
+font-size: 1.2em;
+}
+/* СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+#wrapper {
+width: 80%;
+margin-left: 10%;
+float: none;
+background-color: #030505;
+}
+
+/* СТИЛИ ДЛЯ ЛЕВОЙ КОЛОНКИ */
+
+#wrapper #leftCol {
+width: 70%;
+margin-right: 10%;	
+font-family: "Segoe UI", Arial, sans-serif;
+font-size: 1em;
+color: #ffffff;
+float: none;
+}
+
+#wrapper #leftCol #bigArticle {
+width: 100%;
+height: 70%;
+margin-right: 10%;
+
+background-color: #f6f6f6;
+padding: 1%;
+float: left;
+}
+#wrapper #leftCol #bigArticle img {
+width: 96%;
+padding: 2%;
+float: left;
+margin: 10px;
+
+
+}
+#wrapper #leftCol .article img {
+width: 40%;
+float: left;
+margin: 10px;
+
+
+}
+
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2 {
+font-weight: normal;
+font-size: 1.4em;
+color: #636363;
+font-family: Comic Sans MS, sans-serif;
+}	
+
+#wrapper #leftCol #bigArticle p, #wrapper #leftCol .article p {
+width: 90%;
+margin-left: 5%;
+}
+
+#wrapper #leftCol #bigArticle div.more, #wrapper #leftCol .article div.more {
+padding: 5px;
+border-radius: 5px;
+background-color: #878787;
+color: #fff;
+width: 10%;
+text-align: center;
+margin-top: 10px;
+float: left;
+}
+
+#wrapper #leftCol #bigArticle div.more:hover, #wrapper #leftCol .article div.more:hover {
+background-color: #a2a2a2;	
+}
+
+#wrapper #leftCol .article {
+width: 98%;
+height: 200px;
+margin: 5%,5%,5%,5%;
+background-color: #f6f6f6;
+padding: 1%;
+float: left;
+overflow-y: hidden;	
+}	
+
+
+
+#wrapper #leftCol input {
+width: 40%;
+margin-left: 30%;
+float: left;
+border-radius: 5px;
+border: 2px solid silver;
+padding: 5px;
+color: #d9edf1;
+margin-bottom: 10px;
+font-size: 1.2em;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus {
+border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover {
+border: 2px solid #f8d881;
+cursor: pointer;	
+}
+
+#wrapper #leftCol textarea {
+width: 50%;
+height: 150px;
+margin-left: 25%;
+float: left;
+border-radius: 5px;
+border: 2px solid silver;
+padding: 5px;
+color: #afebf8;
+margin-bottom: 10px;
+font-size: 1.2em;
+resize: none;
+
+}
+
+#wrapper #leftCol #messageShow {
+font-size: 1.2em;
+float: left;
+color: red;
+width: 100%;
+text-align: center; 
+}
+
+/*СТИЛИ ДЛЯ СТРАНИЧКИ О НАС*/
+
+#wrapper #leftCol #about_us {
+width: 76%;
+margin-left: 10%;
+border: 1px solid silver;
+background-color: #f4f4f4;
+padding: 2%;
+}	
+
+/* СТИЛИ ДЛЯ ПРАВОЙ КОЛОНКИ */
+
+
+#wrapper #rightCol {
+width: 20%;	
+float: right;	
+}
+
+#wrapper #rightCol .banner {
+width: 100%;
+float: left;
+margin-bottom: 20px;
+border: 2px solid silver;
+box-sizing: border-box;
+
+}
+
+#content {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.like{
+  cursor:pointer;
+  width:128px;
+  height:128px;
+  margin:10px auto 40px;
+  position:relative;
+}
+.like:hover.active, .like{
+  background: url('../images/like.png') no-repeat;
+}
+.like.active, .like:hover{
+  background: url('../images/like_active.png') no-repeat;
+}
+.like .counter{
+  border: 5px solid #333333;
+  bottom: -37px;
+  color: #333333;
+  font-size: 31px;
+  left: 27px;
+  position: absolute;
+  text-align: center;
+  min-width: 64px;
+  width: auto;
+  
+}
